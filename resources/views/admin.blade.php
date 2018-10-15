@@ -1,6 +1,6 @@
 @extends("crudbooster::admin_template")
 @section("content")
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+    <!--<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">-->
     <link rel="stylesheet" href="https://unpkg.com/survey-knockout/survey.css" />
     <div id="survey-manager">
         <router-view></router-view>
