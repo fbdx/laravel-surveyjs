@@ -33,7 +33,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
-    mode: 'history',
+    mode: 'hash',
     base: '/' + SurveyConfig.admin_prefix + '/survey',
     routes
 });
